@@ -4,9 +4,9 @@ import { makeShip, loadShipModel } from './ship.js';
 import { makeStars, makeAsteroid, makeCrystal } from './world.js';
 
 // ===== НАСТРОЙКИ =====
-const START_SPEED = 0.45;   // скорость полёта в начале
+const START_SPEED = 0.38;   // скорость полёта в начале (медленнее, чтобы новичок успел привыкнуть)
 const SPEED_UP = 0.08;      // на сколько растёт скорость в новом секторе
-const SECTOR_TIME = 20;     // секунд до нового сектора
+const SECTOR_TIME = 25;     // секунд до нового сектора
 const LIVES = 3;
 const FIELD = { x: 7, y: 4 }; // насколько далеко корабль летает в стороны
 // =====================
