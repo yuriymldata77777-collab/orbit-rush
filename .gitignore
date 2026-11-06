@@ -1,0 +1,11 @@
+# секреты: ключи и пароли никогда не попадают на GitHub
+.env
+.env.*
+*.key
+secrets.json
+
+# мусор системы и редакторов
+.DS_Store
+Thumbs.db
+.vscode/
+node_modules/

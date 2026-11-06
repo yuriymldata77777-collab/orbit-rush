@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ORBIT RUSH: игра</title>
+<link rel="stylesheet" href="style.css">
+<script type="importmap">{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.min.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+} }</script>
+</head>
+<body class="game">
+<div id="hud">
+  <div class="pill"><span id="lives">♥♥♥</span></div>
+  <div class="pill">💎 <span id="score">0</span></div>
+  <div class="pill">Сектор <span id="level">1</span></div>
+  <div class="pill dim">Рекорд <span id="best">0</span></div>
+</div>
+<div id="screen" class="screen">
+  <h1>ORBIT<span>RUSH</span></h1>
+  <p>Уворачивайся от астероидов, собирай кристаллы. Каждые 20 секунд новый сектор и выше скорость.</p>
+  <button id="start">СТАРТ</button>
+  <p class="keys">← → ↑ ↓ или WASD · на телефоне веди пальцем · P пауза</p>
+</div>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
